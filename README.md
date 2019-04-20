@@ -34,10 +34,6 @@ prettier:
   autoFix: true
   options:
     singleQuote: true
-
-spellcheck:
-  words:
-    - plint
 ```
 
 All configuration options are optional.
@@ -90,6 +86,12 @@ modules:
 spellcheck:
   words:
     - plint
+  dictionaries:
+    - html
+    - en-gb
+    - en_US
+  exclude:
+    package.json
 ```
 
 ### Exclude
