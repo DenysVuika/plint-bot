@@ -50,9 +50,8 @@ prettier:
   autoFix: true
   options:
     singleQuote: true
-  exclude: [
-    node_modules/**/*
-  ]
+  exclude:
+    - node_modules/**/*
 ```
 
 ### Options
@@ -91,7 +90,7 @@ spellcheck:
     - en-gb
     - en_US
   exclude:
-    package.json
+    - package.json
 ```
 
 ### Exclude
